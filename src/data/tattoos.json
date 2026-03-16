@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Fine Line",
+    "image": "/tattoos/tattoo1.jpg",
+    "category": "fine-line"
+  },
+  {
+    "id": 2,
+    "title": "Blackwork",
+    "image": "/tattoos/tattoo2.jpg",
+    "category": "blackwork"
+  },
+  {
+    "id": 3,
+    "title": "Minimal",
+    "image": "/tattoos/tattoo3.jpg",
+    "category": "minimal"
+  },
+  {
+    "id": 4,
+    "title": "Geométrico",
+    "image": "/tattoos/tattoo4.jpg",
+    "category": "geometric"
+  },
+  {
+    "id": 5,
+    "title": "Floral",
+    "image": "/tattoos/tattoo5.jpg",
+    "category": "floral"
+  },
+  {
+    "id": 6,
+    "title": "Cosmic",
+    "image": "/tattoos/tattoo6.jpg",
+    "category": "cosmic"
+  }
+]
