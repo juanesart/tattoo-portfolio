@@ -27,7 +27,7 @@ export default function StarBackground() {
 
     resize()
 
-    const stars: Star[] = Array.from({ length: 120 }).map(() => ({
+    const stars: Star[] = Array.from({ length: 100 }).map(() => ({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
       radius: Math.random() * 2,

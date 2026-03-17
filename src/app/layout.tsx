@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className="bg-background">
+      <body className="bg-background text-white">
         <StarBackground />
         <SmoothScroll>
           

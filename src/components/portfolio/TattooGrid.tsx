@@ -22,7 +22,7 @@ export default function TattooGrid() {
     }
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   return (
-    <section className="py-32 px-6 ">
+    <section id="gallery" className="py-32 px-6 ">
 
       <div className="max-w-7xl mx-auto">
 
@@ -55,7 +55,7 @@ export default function TattooGrid() {
                 src={tattoo.image}
                 alt={tattoo.title}
                 className={`
-                    w-full h-[400px] object-cover
+                    w-full h-100 object-cover
                     transition-transform duration-700
                     ${hoveredIndex === index ? "scale-110" : "scale-100"}
                 `}
