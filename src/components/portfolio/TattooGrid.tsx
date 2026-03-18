@@ -62,7 +62,7 @@ export default function TattooGrid() {
               />
 
             <div className={`
-                    absolute inset-0 bg-white/20
+                    absolute inset-0 bg-black/40
                     flex items-center justify-center
                     transition-opacity duration-300
                     ${hoveredIndex === index ? "opacity-100" : "opacity-0"}
